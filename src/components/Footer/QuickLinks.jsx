@@ -6,7 +6,7 @@ const QuickLinks = () => {
     const servicesRef = useRef(null);
     const portfolioRef = useRef(null);
     const careerRef = useRef(null);
-    const BlogRef = useRef(null);
+    const BlogRef= useRef(null);
     const contactRef = useRef(null);
     const handleClick = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
