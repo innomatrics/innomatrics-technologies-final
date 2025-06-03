@@ -6,7 +6,7 @@ const QuickLinks = () => {
     const servicesRef = useRef(null);
     const portfolioRef = useRef(null);
     const careerRef = useRef(null);
-    const BlogRef= useRef(null);
+    const blogRef= useRef(null);
     const contactRef = useRef(null);
     const handleClick = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -29,6 +29,9 @@ const QuickLinks = () => {
               </li> */}
               <li className="mb-4">
                 <Link to="/career" onClick={() => handleClick(careerRef)} className="navbar-links">Career</Link>
+              </li>
+                <li className="mb-4">
+                <Link to="/blog" onClick={() => handleClick(blogRef)} className="navbar-links">Career</Link>
               </li>
               <li className="mb-4">
                 <Link to="/contact" onClick={() => handleClick(contactRef)} className="navbar-links">Contact Us</Link>
