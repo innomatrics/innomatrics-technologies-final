@@ -31,7 +31,7 @@ const QuickLinks = () => {
                 <Link to="/career" onClick={() => handleClick(careerRef)} className="navbar-links">Career</Link>
               </li>
                 <li className="mb-4">
-                <Link to="/blog" onClick={() => handleClick(blogRef)} className="navbar-links">Career</Link>
+                <Link to="/blog" onClick={() => handleClick(blogRef)} className="navbar-links">Blog</Link>
               </li>
               <li className="mb-4">
                 <Link to="/contact" onClick={() => handleClick(contactRef)} className="navbar-links">Contact Us</Link>
